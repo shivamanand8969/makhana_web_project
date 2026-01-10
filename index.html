@@ -1,155 +1,113 @@
 
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-      <meta name="description" content="Discover premium quality makhana (fox nuts) - 100% natural, handpicked, and hygienically processed. Perfect for healthy snacking, weight loss, and fasting. Order now!">
-      <meta name="theme-color" content="#ffffff">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="robots" content="">
+  <head>
+  <!-- Basic Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#F2C94C">
+  <meta name="robots" content="index, follow">
 
-      <!-- Alpine.js - Load first -->
-      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.13.3/cdn.min.js"></script>
-      
-      <!-- Font Links -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- SEO Meta -->
+  <title>Lotus Prime Makhana | Premium Makhana Wholesale & Bulk Supplier</title>
+  <meta name="description" content="Lotus Prime Makhana is a trusted wholesale and bulk supplier of premium quality makhana (fox nuts). Sourced from traditional farms in Bihar, supplying traders and businesses across Bihar, Punjab, and Delhi.">
+  <meta name="keywords" content="makhana wholesale, bulk makhana supplier, premium makhana, fox nuts wholesale, bihar makhana, lotus prime makhana, suta makhana supplier, makhana business india">
 
-      <title>Premium Quality Makhana - Healthy Fox Nuts | Natural & Organic</title>
-      <!-- SEO Description -->
-      <meta name="description" content="Discover premium quality makhana (fox nuts) - 100% natural, handpicked, and hygienically processed. Perfect for healthy snacking, weight loss, and fasting. Order now!">
+  <!-- Open Graph (Social Sharing) -->
+  <meta property="og:title" content="Lotus Prime Makhana | Premium Makhana Wholesale Supplier">
+  <meta property="og:description" content="Premium-grade makhana sourced from traditional farms. Trusted bulk and wholesale supplier serving Bihar, Punjab, and Delhi.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:site_name" content="Lotus Prime Makhana">
+  <meta property="og:image" content="logo.png">
 
-      <!-- Performance optimization: Preload critical resources -->
-      <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
-      
-      <!-- Core CSS and Scripts -->
-      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!-- Favicon / Logo in Browser Tab -->
+<link rel="icon" type="image/png" href="./logo.png">
+<link rel="apple-touch-icon" href="./logo.png">
 
-      <script src="https://cdn.tailwindcss.com"></script>
-      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.45.1/apexcharts.min.js"></script>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-      
-      <!-- Project-specific styles -->
-      <style>
-        /* Base styles */
-        :root {
-          --primary-color: #F2C94C;
-          --secondary-color: #FFFFFF;
-          --accent-color: ;
-        }
 
-        /* Strict no-scrollbar rules */
-        * {
-          -ms-overflow-style: none !important;  /* IE and Edge */
-          scrollbar-width: none !important;     /* Firefox */
-        }
-        *::-webkit-scrollbar {
-          display: none !important;             /* Chrome, Safari and Opera */
-        }
+  <!-- Preconnect Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        /* Typography */
-        h1, h2, h3, h4, h5, h6 {
-          font-family: Inter, Inter, system-ui, sans-serif;
-        }
-        body {
-          font-family: Lato, Inter, system-ui, sans-serif;
-        }
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 
-        /* Interactive elements */
-        .interactive-element {
-          transition: all 0.3s ease;
-        }
-        .interactive-element:hover {
-          transform: translateY(-2px);
-        }
+  <!-- Alpine.js -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.13.3/cdn.min.js"></script>
 
-        /* Custom scrollbar */
-        ::-webkit-scrollbar {
-          width: 8px;
-          height: 8px;
-        }
-        ::-webkit-scrollbar-track {
-          background: #f1f1f1;
-        }
-        ::-webkit-scrollbar-thumb {
-          background: #888;
-          border-radius: 4px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-          background: #555;
-        }
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-        /* Animations */
-        @keyframes fadeIn {
-          from { opacity: 0; }
-          to { opacity: 1; }
-        }
-        .fade-in {
-          animation: fadeIn 0.5s ease-in-out;
-        }
-      </style>
+  <!-- Charts & Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.45.1/apexcharts.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-      <!-- Dynamic Meta Tags -->
-      <meta name="description" content="">
-      <meta name="keywords" content="">
-      <meta name="robots" content="">
-      <meta property="og:title" content="">
-      <meta property="og:description" content="">
-      <meta property="og:image" content="">
-      <meta property="og:type" content="website">
-      <meta property="og:locale" content="en_US">
-      <meta property="og:site_name" content="Premium Makhana Co">
-      
-      <!-- Favicon -->
-      <link rel="icon" type="image/x-icon" href="/favicon-makhana.ico">
+  <!-- Project Styles -->
+  <style>
+    :root {
+      --primary-color: #F2C94C;
+      --secondary-color: #FFFFFF;
+      --accent-color: #2E8B57;
+    }
 
-      <!-- Header Scripts -->
-      <script id="header-scripts">
-        // This script tag will be replaced with actual scripts.head content
-        if (window.scripts && window.scripts.head) {
-          document.getElementById('header-scripts').outerHTML = window.scripts.head;
-        }
-      </script>
+    body {
+      font-family: Lato, Inter, system-ui, sans-serif;
+    }
 
-      <!-- Project Configuration -->
-      <script>
-        window.projectConfig = {
-          name: 'Premium Makhana Co',
-          type: '',
-          settings: {
-            colors: {
-              primary: '#F2C94C',
-              secondary: '#FFFFFF',
-              accent: ''
-            },
-            fonts: {
-              primary: 'Inter',
-              secondary: 'Lato'
-            }
-          }
-        };
-      </script>
-   <style>
-        [data-section-id] {
-          display: none;
+    h1, h2, h3, h4, h5, h6 {
+      font-family: Inter, system-ui, sans-serif;
+    }
+
+    /* Smooth UI */
+    .interactive-element {
+      transition: all 0.3s ease;
+    }
+    .interactive-element:hover {
+      transform: translateY(-2px);
+    }
+
+    /* Fade animation */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .fade-in {
+      animation: fadeIn 0.5s ease-in-out;
+    }
+  </style>
+
+  <!-- Project Configuration -->
+  <script>
+    window.projectConfig = {
+      name: 'Lotus Prime Makhana',
+      type: 'Wholesale & Bulk Supplier',
+      regions: ['Bihar', 'Punjab', 'Delhi'],
+      settings: {
+        colors: {
+          primary: '#F2C94C',
+          secondary: '#FFFFFF',
+          accent: '#2E8B57'
+        },
+        fonts: {
+          primary: 'Inter',
+          secondary: 'Lato'
         }
-        [data-section-id]:first-child {
-          display: block;
-        }
-      </style>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+      }
+    };
+  </script>
 </head>
+
    <body class="antialiased text-gray-900 bg-white">
-      <!-- Skip to main content link for accessibility -->
       <a href="#main-content" 
          class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:p-4 focus:bg-white focus:text-black">
          Skip to main content
       </a>
 
-      <!-- Content will be injected here by the build process -->
-      <mountpoint><div id="RolloutPageContent"><nav class="bg-white shadow-sm border-b">
+      <mountpoint><div ><nav class="bg-white shadow-sm border-b">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center h-16">
       <div class="flex-shrink-0">
@@ -201,11 +159,53 @@
     }
   });
 </script>
+
+<!-- Splash Screen -->
+<div id="splash-screen" class="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-white">
+  
+  <!-- Logo -->
+  <img src="lotus_prime_makhana.png" alt="Company Logo" class="w-48 mb-2 animate-pulse">
+
+  <!-- Loading Bar -->
+  <div class="w-48 h-2 bg-gray-200 rounded-full overflow-hidden">
+    <div id="loading-bar" class="h-full bg-yellow-500 rounded-full"></div>
+  </div>
+
+  <p class="mt-[10px] text-sm text-gray-600 tracking-wide">
+    Abhimanyu Jaiswal
+  </p>
+</div>
+
+<style>
+  #loading-bar {
+    width: 0%;
+    animation: loading 4s linear forwards;
+  }
+
+  @keyframes loading {
+    from { width: 0%; }
+    to { width: 100%; }
+  }
+</style>
+
+<script>
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+      const splash = document.getElementById("splash-screen");
+      splash.classList.add("opacity-0", "transition-opacity", "duration-700");
+
+      setTimeout(() => {
+        splash.style.display = "none";
+      }, 700);
+    }, 4000); // 4 seconds
+  });
+</script>
+
 <section
   id="hero"
   class="relative bg-gradient-to-br from-[#FAF9F6] to-white min-h-[60vh] md:min-h-[70vh] lg:min-h-[80vh] flex items-center"
 >
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
     <div class="grid lg:grid-cols-2 gap-12 items-center">
       <div class="space-y-8">
         <h1 class="text-4xl md:text-6xl font-bold text-neutral-900 leading-tight">
@@ -216,12 +216,12 @@
          Premium makhana supplier offering bulk and wholesale orders for businesses. Trusted quality, reliable supply across Bihar, Punjab, and Delhi.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
-          <a href="#about">
+          <a href="#products">
           <button class="bg-[#F2C94C] hover:bg-[#E6BE45] text-neutral-900 px-8 py-3 rounded-lg font-semibold transition-colors duration-300">
             Buy Now
           </button>
         </a>
-        <a href="#about">
+        <a href="#products">
           <button class="border border-[#2E8B57] text-[#2E8B57] hover:bg-[#2E8B57] hover:text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300">
             Explore Products
           </button>
@@ -252,7 +252,7 @@
 <section id="about" class="py-10 bg-[#FAF9F6]">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-10">
-      <h2 class="text-4xl md:text-5xl font-bold text-neutral-800 mb-2">About</h2>
+      <h2 class="text-4xl md:text-5xl font-bold text-neutral-800 mb-2">About Us</h2>
       <p class="text-xl text-neutral-600 max-w-2xl mx-auto">Our journey from trusted sourcing to reliable bulk supply</p>
     </div>
     
@@ -542,12 +542,12 @@
     </div>
   </div>
 </section>
-<section id="testimonials" class="py-20 bg-[#FAF9F6] relative overflow-hidden">
+<section id="testimonials" class="py-10 bg-[#FAF9F6] relative overflow-hidden">
   <div class="w-full">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
       <div class="text-center">
         <h2 class="text-4xl md:text-5xl font-bold text-neutral-800 mb-4">Testimonials</h2>
-        <p class="text-xl text-neutral-600 max-w-2xl mx-auto">Trusted by thousands of happy customers</p>
+        <p class="text-xl text-neutral-600 max-w-2xl mx-auto">Trusted by wholesalers, traders, and bulk buyers</p>
       </div>
     </div>
     
@@ -557,39 +557,39 @@
           <li class="flex-shrink-0 w-96">
             <div class="bg-white p-8 rounded-xl shadow-lg">
               <div class="flex items-center mb-4">
-                <img src="https://images.unsplash.com/photo-1729824186959-3d6ceba12b07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8aGFwcHklMjBjdXN0b21lciUyMHRlc3RpbW9uaWFsfGVufDF8MHx8fDE3Njc3MDcyNzV8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Customer" class="w-12 h-12 rounded-full object-cover mr-4">
+                <img src="user.jpeg" alt="Customer" class="w-12 h-12 rounded-full object-cover mr-4">
                 <div>
-                  <h4 class="font-semibold text-neutral-800">Rajesh Kumar</h4>
-                  <p class="text-sm text-neutral-600">Fitness Enthusiast</p>
+                  <h4 class="font-semibold text-neutral-800">Ramesh Prasad</h4>
+                  <p class="text-sm text-neutral-600">Makhana Trader – Bihar</p>
                 </div>
               </div>
-              <blockquote class="text-neutral-700 italic">"Best makhana I've ever had! Perfect for my evening snacks and keeps me full without guilt."</blockquote>
+              <blockquote class="text-neutral-700 italic">"Quality is always consistent. Sorting is clean and pricing is fair. Very reliable supplier."</blockquote>
             </div>
           </li>
           
           <li class="flex-shrink-0 w-96">
             <div class="bg-white p-8 rounded-xl shadow-lg">
               <div class="flex items-center mb-4">
-                <img src="https://images.unsplash.com/photo-1600456899121-68eda5705257?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8aGFwcHklMjBjdXN0b21lciUyMHRlc3RpbW9uaWFsfGVufDF8MHx8fDE3Njc3MDcyNzV8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Customer" class="w-12 h-12 rounded-full object-cover mr-4">
+                <img src="defualt_profile.webp" alt="Customer" class="w-12 h-12 rounded-full object-cover mr-4">
                 <div>
-                  <h4 class="font-semibold text-neutral-800">Priya Sharma</h4>
-                  <p class="text-sm text-neutral-600">Homemaker</p>
+                  <h4 class="font-semibold text-neutral-800">Gurpreet Singh</h4>
+                  <p class="text-sm text-neutral-600">Wholesale Distributor – Punjab</p>
                 </div>
               </div>
-              <blockquote class="text-neutral-700 italic">"My kids love the flavored varieties. Finally a healthy snack they actually enjoy!"</blockquote>
+              <blockquote class="text-neutral-700 italic">"We source bulk makhana regularly. Delivery is timely and grading is exactly as promised. Long-term business partner"</blockquote>
             </div>
           </li>
           
           <li class="flex-shrink-0 w-96">
             <div class="bg-white p-8 rounded-xl shadow-lg">
               <div class="flex items-center mb-4">
-                <img src="https://images.unsplash.com/photo-1549382245-11fba774ac5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8M3x8aGFwcHklMjBjdXN0b21lciUyMHRlc3RpbW9uaWFsfGVufDF8MHx8fDE3Njc3MDcyNzV8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Customer" class="w-12 h-12 rounded-full object-cover mr-4">
+                <img src="defualt_profile.webp" alt="Customer" class="w-12 h-12 rounded-full object-cover mr-4">
                 <div>
-                  <h4 class="font-semibold text-neutral-800">Arjun Patel</h4>
-                  <p class="text-sm text-neutral-600">Store Owner</p>
+                  <h4 class="font-semibold text-neutral-800">Mohit Agarwal</h4>
+                  <p class="text-sm text-neutral-600">Dry Fruits Dealer – Delhi</p>
                 </div>
               </div>
-              <blockquote class="text-neutral-700 italic">"Excellent quality for bulk orders. My customers keep coming back for more!"</blockquote>
+              <blockquote class="text-neutral-700 italic">"Customers are satisfied and repeat orders are strong"</blockquote>
             </div>
           </li>
           
@@ -597,14 +597,14 @@
             <div class="bg-white p-8 rounded-xl shadow-lg">
               <div class="flex items-center mb-4">
                 <div class="w-12 h-12 bg-[#2E8B57] rounded-full flex items-center justify-center mr-4">
-                  <span class="text-white font-semibold">AM</span>
+                  <span class="text-white font-semibold">SK</span>
                 </div>
                 <div>
-                  <h4 class="font-semibold text-neutral-800">Anita Mehta</h4>
-                  <p class="text-sm text-neutral-600">Yoga Instructor</p>
+                  <h4 class="font-semibold text-neutral-800">Sanjay Verma</h4>
+                  <p class="text-sm text-neutral-600">Retail Chain Owner</p>
                 </div>
               </div>
-              <blockquote class="text-neutral-700 italic">"Perfect post-workout snack. Light, nutritious, and keeps me energized throughout the day."</blockquote>
+              <blockquote class="text-neutral-700 italic">"Uniform size and good popping ratio. The quality remains stable across every batch, which is rare in this market"</blockquote>
             </div>
           </li>
           
@@ -627,14 +627,14 @@
             <div class="bg-white p-8 rounded-xl shadow-lg">
               <div class="flex items-center mb-4">
                 <div class="w-12 h-12 bg-neutral-600 rounded-full flex items-center justify-center mr-4">
-                  <span class="text-white font-semibold">NG</span>
+                  <span class="text-white font-semibold">AK</span>
                 </div>
                 <div>
-                  <h4 class="font-semibold text-neutral-800">Neha Gupta</h4>
-                  <p class="text-sm text-neutral-600">Nutritionist</p>
+                  <h4 class="font-semibold text-neutral-800">Anil Kumar</h4>
+                  <p class="text-sm text-neutral-600">Food Processing Unit</p>
                 </div>
               </div>
-              <blockquote class="text-neutral-700 italic">"I recommend this to all my clients. Best plant-based protein snack available in the market."</blockquote>
+              <blockquote class="text-neutral-700 italic">"Clean material and dependable supply"</blockquote>
             </div>
           </li>
           
@@ -658,7 +658,7 @@
           <li class="flex-shrink-0 w-96">
             <div class="bg-white p-8 rounded-xl shadow-lg">
               <div class="flex items-center mb-4">
-                <img src="https://images.unsplash.com/photo-1729824186959-3d6ceba12b07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8aGFwcHklMjBjdXN0b21lciUyMHRlc3RpbW9uaWFsfGVufDF8MHx8fDE3Njc3MDcyNzV8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Customer" class="w-12 h-12 rounded-full object-cover mr-4">
+                <img src="user.jpeg" alt="Customer" class="w-12 h-12 rounded-full object-cover mr-4">
                 <div>
                   <h4 class="font-semibold text-neutral-800">Rajesh Kumar</h4>
                   <p class="text-sm text-neutral-600">Fitness Enthusiast</p>
@@ -671,7 +671,7 @@
           <li class="flex-shrink-0 w-96">
             <div class="bg-white p-8 rounded-xl shadow-lg">
               <div class="flex items-center mb-4">
-                <img src="https://images.unsplash.com/photo-1600456899121-68eda5705257?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8aGFwcHklMjBjdXN0b21lciUyMHRlc3RpbW9uaWFsfGVufDF8MHx8fDE3Njc3MDcyNzV8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Customer" class="w-12 h-12 rounded-full object-cover mr-4">
+                <img src="defualt_profile.webp" alt="Customer" class="w-12 h-12 rounded-full object-cover mr-4">
                 <div>
                   <h4 class="font-semibold text-neutral-800">Priya Sharma</h4>
                   <p class="text-sm text-neutral-600">Homemaker</p>
@@ -684,7 +684,7 @@
           <li class="flex-shrink-0 w-96">
             <div class="bg-white p-8 rounded-xl shadow-lg">
               <div class="flex items-center mb-4">
-                <img src="https://images.unsplash.com/photo-1549382245-11fba774ac5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8M3x8aGFwcHklMjBjdXN0b21lciUyMHRlc3RpbW9uaWFsfGVufDF8MHx8fDE3Njc3MDcyNzV8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Customer" class="w-12 h-12 rounded-full object-cover mr-4">
+                <img src="defualt_profile.webp" alt="Customer" class="w-12 h-12 rounded-full object-cover mr-4">
                 <div>
                   <h4 class="font-semibold text-neutral-800">Arjun Patel</h4>
                   <p class="text-sm text-neutral-600">Store Owner</p>
@@ -717,25 +717,25 @@
     }
   </style>
 </section>
-<section id="cta" class="py-20 bg-gradient-to-br from-[#2E8B57] to-[#267349]">
+<section id="cta" class="py-10 bg-gradient-to-br from-[#2E8B57] to-[#267349]">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center text-white">
-      <h2 class="text-4xl md:text-5xl font-bold mb-6">Order Premium Makhana Today</h2>
-      <p class="text-xl mb-12 max-w-2xl mx-auto">Join thousands of happy customers experiencing the perfect blend of health and taste</p>
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">Source Premium Makhana in Bulk</h2>
+      <p class="text-xl mb-12 max-w-2xl mx-auto">Trusted supplier of graded makhana for wholesalers, traders, and bulk buyers across Bihar, Punjab, and Delhi</p>
     </div>
     
     <div class="grid lg:grid-cols-2 gap-12 items-center">
       <div class="space-y-8">
         <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
-          <h3 class="text-2xl font-bold text-white mb-6">Get in Touch</h3>
+          <h3 class="text-2xl font-bold text-white mb-6">Enquire for Bulk Orders</h3>
           <div class="space-y-4">
-            <a href="https://wa.me/919999999999" class="flex items-center space-x-4 bg-[#F2C94C] text-neutral-900 px-6 py-4 rounded-lg hover:bg-[#E6BE45] transition-colors">
+            <a href="https://wa.me/9939175136" class="flex items-center space-x-4 bg-[#F2C94C] text-neutral-900 px-6 py-4 rounded-lg hover:bg-[#E6BE45] transition-colors">
               <span class="text-2xl">📱</span>
-              <span class="font-semibold">WhatsApp Order</span>
+              <span class="font-semibold">WhatsApp for Price & Grades</span>
             </a>
-            <a href="tel:+919999999999" class="flex items-center space-x-4 bg-white text-neutral-900 px-6 py-4 rounded-lg hover:bg-gray-100 transition-colors">
+            <a href="tel:+919939175136" class="flex items-center space-x-4 bg-white text-neutral-900 px-6 py-4 rounded-lg hover:bg-gray-100 transition-colors">
               <span class="text-2xl">📞</span>
-              <span class="font-semibold">Call Now - +91 99999 99999</span>
+              <span class="font-semibold">Call Now - +91 9939175136</span>
             </a>
             <a href="mailto:orders@premiummakhana.com" class="flex items-center space-x-4 bg-white text-neutral-900 px-6 py-4 rounded-lg hover:bg-gray-100 transition-colors">
               <span class="text-2xl">✉️</span>
@@ -745,19 +745,19 @@
         </div>
         
         <div class="text-center">
-          <p class="text-white/80">Free shipping on orders above ₹999</p>
+          <p class="text-white/80"> Bulk supply • Consistent quality • Long-term trade partnership</p>
         </div>
       </div>
       
       <div class="relative">
         <div class="grid grid-cols-3 gap-4">
-          <img src="https://images.unsplash.com/photo-1606851576477-6e801666853a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8cHJlbWl1bSUyMHNuYWNrJTIwcGFja2FnaW5nfGVufDF8MHx8fDE3Njc3MDczNTh8MA&ixlib=rb-4.1.0&q=80&w=1080" 
+          <img src="makhana_2.webp" 
                alt="Premium snack packaging" 
                class="rounded-2xl shadow-2xl w-full h-32 object-cover" />
-          <img src="https://images.unsplash.com/photo-1617912760139-86a1766ed1f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8cHJlbWl1bSUyMHNuYWNrJTIwcGFja2FnaW5nfGVufDF8MHx8fDE3Njc3MDczNTh8MA&ixlib=rb-4.1.0&q=80&w=1080" 
+          <img src="logo.png" 
                alt="Person holding premium pack" 
                class="rounded-2xl shadow-2xl w-full h-32 object-cover mt-8" />
-          <img src="https://images.unsplash.com/photo-1641189614066-59860ff72f2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8M3x8cHJlbWl1bSUyMHNuYWNrJTIwcGFja2FnaW5nfGVufDF8MHx8fDE3Njc3MDczNTh8MA&ixlib=rb-4.1.0&q=80&w=1080" 
+          <img src="makhana_home_3.jpeg" 
                alt="Premium crackers packaging" 
                class="rounded-2xl shadow-2xl w-full h-32 object-cover" />
         </div>
@@ -765,111 +765,175 @@
     </div>
   </div>
 </section>
-<section id="contact" class="py-20 bg-white">
+<section id="contact" class="py-10 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-16">
-      <h2 class="text-4xl md:text-5xl font-bold text-neutral-800 mb-4">Contact</h2>
-      <p class="text-xl text-neutral-600 max-w-2xl mx-auto">Reach out for orders, inquiries, or partnerships</p>
+
+    <!-- Heading -->
+    <div class="text-center mb-10">
+      <h2 class="text-4xl md:text-5xl font-bold text-neutral-800 mb-4">
+        Contact & Trade Enquiry
+      </h2>
+      <p class="text-xl text-neutral-600 max-w-2xl mx-auto">
+        Get in touch for bulk orders, wholesale pricing, or long-term trade partnerships
+      </p>
     </div>
-    
+
     <div class="grid lg:grid-cols-2 gap-12">
+
+      <!-- Form -->
       <div>
         <form id="contact-form" class="space-y-6">
+
           <div>
-            <label class="block text-sm font-medium text-neutral-700 mb-2">Name</label>
-            <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-[#2E8B57] focus:border-transparent">
+            <label class="block text-sm font-medium text-neutral-700 mb-2">
+              Full Name
+            </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Your full name"
+              class="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-[#2E8B57] focus:border-transparent">
           </div>
-          
+
           <div>
-            <label class="block text-sm font-medium text-neutral-700 mb-2">Email</label>
-            <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-[#2E8B57] focus:border-transparent">
+            <label class="block text-sm font-medium text-neutral-700 mb-2">
+              Email Address
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="you@example.com"
+              class="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-[#2E8B57] focus:border-transparent">
           </div>
-          
+
           <div>
-            <label class="block text-sm font-medium text-neutral-700 mb-2">Phone</label>
-            <input type="tel" id="phone" name="phone" class="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-[#2E8B57] focus:border-transparent">
+            <label class="block text-sm font-medium text-neutral-700 mb-2">
+              Phone / WhatsApp Number
+            </label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+91 XXXXX XXXXX"
+              class="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-[#2E8B57] focus:border-transparent">
           </div>
-          
+
           <div>
-            <label class="block text-sm font-medium text-neutral-700 mb-2">Message</label>
-            <textarea id="message" name="message" rows="4" required class="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-[#2E8B57] focus:border-transparent"></textarea>
+            <label class="block text-sm font-medium text-neutral-700 mb-2">
+              Requirement Details
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              required
+              placeholder="Mention quantity, grade (suta), destination, or any specific requirement"
+              class="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-[#2E8B57] focus:border-transparent"></textarea>
           </div>
-          
-          <button type="submit" class="w-full bg-[#2E8B57] text-white py-3 px-6 rounded-lg font-semibold hover:bg-[#2E8B57]/90 transition-colors">
-            Send Message
+
+          <button
+            type="submit"
+            class="w-full bg-[#2E8B57] text-white py-3 px-6 rounded-lg font-semibold hover:bg-[#2E8B57]/90 transition-colors">
+            Submit Enquiry
           </button>
         </form>
-        
+
         <div id="form-success" class="hidden mt-4 p-4 bg-green-50 border border-green-200 rounded-lg">
-          <p class="text-green-800">Thank you! We'll get back to you within 24 hours.</p>
+          <p class="text-green-800">
+            Thank you for your enquiry. Our team will contact you shortly.
+          </p>
         </div>
       </div>
-      
+
+      <!-- Contact Info -->
       <div class="space-y-8">
         <div>
-          <h3 class="text-2xl font-semibold text-neutral-800 mb-6">Contact Information</h3>
-          
+          <h3 class="text-2xl font-semibold text-neutral-800 mb-6">
+            Business Contact Details
+          </h3>
+
           <div class="space-y-4">
+
             <div class="flex items-center">
               <div class="w-12 h-12 bg-[#F2C94C] rounded-full flex items-center justify-center mr-4">
-                <span class="text-neutral-800">📱</span>
+                📱
               </div>
               <div>
-                <p class="font-semibold text-neutral-800">WhatsApp</p>
-                <a href="https://wa.me/919999999999" class="text-[#2E8B57] hover:underline">+91 99999 99999</a>
+                <p class="font-semibold text-neutral-800">WhatsApp (Trade Only)</p>
+                <a href="https://wa.me/9939175136" class="text-[#2E8B57] hover:underline">
+                  +91 9939175136
+                </a>
               </div>
             </div>
-            
+
             <div class="flex items-center">
               <div class="w-12 h-12 bg-[#F2C94C] rounded-full flex items-center justify-center mr-4">
-                <span class="text-neutral-800">📞</span>
+                📞
               </div>
               <div>
                 <p class="font-semibold text-neutral-800">Phone</p>
-                <a href="tel:+911234567890" class="text-[#2E8B57] hover:underline">+91 12345 67890</a>
+                <a href="tel:+919939175136" class="text-[#2E8B57] hover:underline">
+                  +91 9939175136
+                </a>
               </div>
             </div>
-            
+
             <div class="flex items-center">
               <div class="w-12 h-12 bg-[#F2C94C] rounded-full flex items-center justify-center mr-4">
-                <span class="text-neutral-800">📧</span>
+                📧
               </div>
               <div>
                 <p class="font-semibold text-neutral-800">Email</p>
-                <a href="mailto:hello@premiummakhana.com" class="text-[#2E8B57] hover:underline">hello@premiummakhana.com</a>
+                <a href="mailto:orders@premiummakhana.com" class="text-[#2E8B57] hover:underline">
+                  orders@premiummakhana.com
+                </a>
               </div>
             </div>
-            
+
             <div class="flex items-center">
               <div class="w-12 h-12 bg-[#F2C94C] rounded-full flex items-center justify-center mr-4">
-                <span class="text-neutral-800">📍</span>
+                📍
               </div>
               <div>
-                <p class="font-semibold text-neutral-800">Address</p>
-                <p class="text-neutral-600">Makhana Nagar, Patna - 800001, Bihar, India</p>
+                <p class="font-semibold text-neutral-800">Office & Warehouse</p>
+                <p class="text-neutral-600">
+                  Madhepura, Patna – 852124, Bihar, India
+                </p>
               </div>
             </div>
+
           </div>
         </div>
-        
+
+        <!-- Images -->
         <div>
-          <h3 class="text-2xl font-semibold text-neutral-800 mb-4">Our Office</h3>
+          <h3 class="text-2xl font-semibold text-neutral-800 mb-4">
+           Our Operations
+          </h3>
           <div class="grid grid-cols-1 gap-4">
-            <img src="https://images.unsplash.com/photo-1758448656987-cfae6bf225e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8cHJlbWl1bSUyMG9mZmljZSUyMHJlY2VwdGlvbnxlbnwxfDB8fHwxNzY3NzA3Mzk1fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Premium Office Reception" class="w-full h-32 object-cover rounded-lg shadow-md">
-            <img src="https://images.unsplash.com/photo-1758448511255-ac2a24a135d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8cHJlbWl1bSUyMG9mZmljZSUyMHJlY2VwdGlvbnxlbnwxfDB8fHwxNzY3NzA3Mzk1fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Contemporary Office" class="w-full h-32 object-cover rounded-lg shadow-md">
-            <img src="https://images.unsplash.com/photo-1758448656990-398443036eb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8M3x8cHJlbWl1bSUyMG9mZmljZSUyMHJlY2VwdGlvbnxlbnwxfDB8fHwxNzY3NzA3Mzk1fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Luxurious Lobby" class="w-full h-32 object-cover rounded-lg shadow-md">
+            <img
+              src="makhana_factory.JPG"
+              alt="Office reception"
+              class="w-full h-32 object-cover rounded-lg shadow-md">
+            
           </div>
         </div>
+
       </div>
     </div>
   </div>
-  
+
+  <!-- Form Script -->
   <script>
     document.getElementById('contact-form').addEventListener('submit', function(e) {
       e.preventDefault();
-      
+
       const formData = new FormData(this);
-      
+
       fetch('/', {
         method: 'POST',
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -882,68 +946,89 @@
           document.getElementById('form-success').classList.add('hidden');
         }, 5000);
       })
-      .catch((error) => {
+      .catch(() => {
         alert('Error submitting form. Please try again.');
       });
     });
   </script>
 </section>
+
 <footer id="footer" class="bg-neutral-800 text-white py-16">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid md:grid-cols-4 gap-8">
+      
+      <!-- Brand -->
       <div>
-        <h3 class="text-2xl font-bold mb-4">Premium Makhana</h3>
-        <p class="text-neutral-300 mb-4">Premium quality fox nuts sourced from traditional Indian farms</p>
+       <div class="flex items-center mb-4 space-x-3">
+          <img 
+            src="logo.png" 
+            alt="Lotus Prime Makhana Logo" 
+            class="w-20 h-20 object-contain"
+          />
+          <h3 class="text-2xl font-bold">Lotus Prime Makhana</h3>
+        </div>
+        <p class="text-neutral-300 mb-4">
+          Trusted supplier of premium-grade makhana, sourced from traditional farms and delivered for wholesale and bulk trade.
+        </p>
         <div class="flex space-x-4">
-          <a href="#" class="text-neutral-400 hover:text-[#F2C94C] transition-colors">FB</a>
-          <a href="#" class="text-neutral-400 hover:text-[#F2C94C] transition-colors">IG</a>
-          <a href="#" class="text-neutral-400 hover:text-[#F2C94C] transition-colors">TW</a>
-          <a href="#" class="text-neutral-400 hover:text-[#F2C94C] transition-colors">LI</a>
+          <a href="#" class="text-neutral-400 hover:text-[#F2C94C] transition-colors">Facebook</a>
+          <a href="#" class="text-neutral-400 hover:text-[#F2C94C] transition-colors">Instagram</a>
+          <a href="#" class="text-neutral-400 hover:text-[#F2C94C] transition-colors">LinkedIn</a>
         </div>
       </div>
       
+      <!-- Quick Links -->
       <div>
         <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
         <ul class="space-y-2">
           <li><a href="#hero" class="text-neutral-300 hover:text-[#F2C94C] transition-colors">Home</a></li>
           <li><a href="#about" class="text-neutral-300 hover:text-[#F2C94C] transition-colors">About Us</a></li>
-          <li><a href="#products" class="text-neutral-300 hover:text-[#F2C94C] transition-colors">Products</a></li>
-          <li><a href="#health-benefits" class="text-neutral-300 hover:text-[#F2C94C] transition-colors">Health Benefits</a></li>
+          <li><a href="#products" class="text-neutral-300 hover:text-[#F2C94C] transition-colors">Product Grades</a></li>
+          <li><a href="#cta" class="text-neutral-300 hover:text-[#F2C94C] transition-colors">Bulk Orders</a></li>
           <li><a href="#contact" class="text-neutral-300 hover:text-[#F2C94C] transition-colors">Contact</a></li>
         </ul>
       </div>
       
+      <!-- Business Info -->
       <div>
-        <h4 class="text-lg font-semibold mb-4">Customer Support</h4>
-        <ul class="space-y-2">
-          <li><a href="/privacy" class="text-neutral-300 hover:text-[#F2C94C] transition-colors">Privacy Policy</a></li>
-          <li><a href="/terms" class="text-neutral-300 hover:text-[#F2C94C] transition-colors">Terms of Service</a></li>
-          <li><a href="#contact" class="text-neutral-300 hover:text-[#F2C94C] transition-colors">Contact Us</a></li>
-          <li><a href="#" class="text-neutral-300 hover:text-[#F2C94C] transition-colors">FAQs</a></li>
+        <h4 class="text-lg font-semibold mb-4">Our Business</h4>
+        <ul class="space-y-2 text-neutral-300">
+          <li>Wholesale & Bulk Supply</li>
+          <li>Pan-India Trade Network</li>
+          <li>Consistent Quality Grades</li>
+          <li>Trusted by Traders & Distributors</li>
         </ul>
       </div>
       
+      <!-- Contact -->
       <div>
         <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
         <div class="space-y-2 text-neutral-300">
-          <p>📞 +91 12345 67890</p>
-          <p>📧 hello@premiummakhana.com</p>
-          <p>📍 Makhana Nagar, Patna - 800001, Bihar, India</p>
+          <p>📱 <a href="https://wa.me/919939175136" class="hover:text-[#F2C94C]">WhatsApp: +91 9939175136</a></p>
+          <p>📞 <a href="tel:+919939175136" class="hover:text-[#F2C94C]">Call: +91 9939175136</a></p>
+          <p>📧 orders@lotusprimemakhana.com</p>
+          <p>📍 Bihar | Punjab | Delhi</p>
         </div>
         
         <div class="mt-4">
           <h5 class="font-semibold mb-2">Business Hours</h5>
-          <p class="text-neutral-300 text-sm">Mon-Sat: 9AM-6PM</p>
-          <p class="text-neutral-300 text-sm">Sun: 10AM-4PM</p>
+          <p class="text-neutral-300 text-sm">Mon – Sat: 9:00 AM – 7:00 PM</p>
+          <p class="text-neutral-300 text-sm">Sunday: By Appointment</p>
         </div>
       </div>
     </div>
     
+    <!-- Bottom -->
     <div class="border-t border-neutral-700 mt-12 pt-8 text-center">
-      <p class="text-neutral-400">&copy; 2024 Premium Makhana. All rights reserved. Made with ❤️ in India</p>
+      <p class="text-neutral-400 text-sm">
+        © 2026 Lotus Prime Makhana. All rights reserved. | Trusted Indian Makhana Trade
+      </p>
     </div>
   </div>
-</footer></div></mountpoint>
+</footer>
+
+
+</div></mountpoint>
 
       <!-- Core functionality scripts -->
       <script>
